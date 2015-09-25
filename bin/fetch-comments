@@ -15,7 +15,6 @@ BEGIN {
     require "$d/../setenv.pl";
 }
 
-use FixMyStreet::App;
 use CronFns;
 my ($verbose, $nomail) = CronFns::options();
 

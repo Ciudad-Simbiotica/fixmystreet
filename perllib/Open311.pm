@@ -8,6 +8,7 @@ use LWP::Simple;
 use LWP::UserAgent;
 use DateTime::Format::W3CDTF;
 use HTTP::Request::Common qw(POST);
+use FixMyStreet::Cobrand;
 
 has jurisdiction => ( is => 'ro', isa => 'Str' );;
 has api_key => ( is => 'ro', isa => 'Str' );

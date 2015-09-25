@@ -17,16 +17,14 @@ use JSON;
 #     commonlib/bin/gettext-makemo FixMyStreet
 
 use FixMyStreet;
-my $c = FixMyStreet::App->new();
-my $cobrand = FixMyStreet::Cobrand::Zurich->new({ c => $c });
-$c->stash->{cobrand} = $cobrand;
+my $cobrand = FixMyStreet::Cobrand::Zurich->new();
 
 # This is a helper method that will send the reports but with the config
 # correctly set - notably SEND_REPORTS_ON_STAGING needs to be true.
 sub send_reports_for_zurich {
     FixMyStreet::override_config { SEND_REPORTS_ON_STAGING => 1 }, sub {
         # Actually send the report
-        $c->model('DB::Problem')->send_reports('zurich');
+        FixMyStreet::DB->resultset('Problem')->send_reports('zurich');
     };
 }
 sub reset_report_state {
@@ -178,7 +176,7 @@ subtest "changing of categories" => sub {
 
 sub get_moderated_count {
     # my %date_params = ( );
-    # my $moderated = FixMyStreet::App->model('DB::Problem')->search({
+    # my $moderated = FixMyStreet::DB->resultset('Problem')->search({
     #     extra => { like => '%moderated_overdue,I1:0%' }, %date_params } )->count;
     # return $moderated;
 
@@ -661,7 +659,7 @@ subtest "test stats" => sub {
 
 subtest "test admin_log" => sub {
     diag $report->id;
-    my @entries = FixMyStreet::App->model('DB::AdminLog')->search({
+    my @entries = FixMyStreet::DB->resultset('AdminLog')->search({
         object_type => 'problem',
         object_id   => $report->id,
     });
