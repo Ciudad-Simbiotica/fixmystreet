@@ -632,6 +632,9 @@ msgstr "Contáctenos"
 msgid "Contact the team"
 msgstr "Contactar con el equipo"
 
+
+"Contact %s"
+
 #: perllib/FixMyStreet/App/Controller/Admin.pm:1325
 #: perllib/FixMyStreet/App/Controller/Admin.pm:1353
 msgid "Could not find user"
@@ -1118,8 +1121,17 @@ msgstr "¿Olvidó su contraseña?"
 #: templates/web/base/faq/faq-en-gb.html:1
 #: templates/web/base/static/privacy.html:1
 #: templates/web/base/static/privacy.html:2
+#: templates/web/fixmystreet/contact/index.html:10
 msgid "Frequently Asked Questions"
-msgstr "Listado de Preguntas Frecuentes"
+msgstr "Preguntas Frecuentes"
+
+#: templates/web/fixmystreet/contact/index.html:11
+msgid "Privacy and cookies"
+msgstr "Privacidad y cookies"
+
+#: templates/web/fixmystreet/contact/index.html:12
+msgid "Contact %s"
+msgstr "Contacta con %s"
 
 #: templates/web/base/open311/index.html:136
 msgid "GeoRSS on Google Maps"
@@ -1448,7 +1460,7 @@ msgstr "Investigando"
 msgid ""
 "It's often quickest to <a href=\"%s\">check our FAQs</a> and see if the "
 "answer is there."
-msgstr "A menudo es más rápido <a href=\"%s\">consultar nuestro Listado de Preguntas Frecuentes</a> y ver si la respuesta está allí."
+msgstr "A menudo es más rápido <a href=\"%s\">consultar nuestras Preguntas Frecuentes</a> y ver si la respuesta está allí."
 
 #: templates/web/base/tokens/confirm_problem.html:14
 msgid "It’s on its way to the council right now."
