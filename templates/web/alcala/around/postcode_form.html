@@ -1,3 +1,8 @@
+
+[%
+    question = 'Introduzca una calle (opcional) y pulse NOTIFICAR INCIDENCIA';
+%]
+
 <div id="front-main">
     <div id="front-main-container">
         [% INCLUDE 'around/intro.html' %]
@@ -7,7 +12,7 @@
                 <input type="submit" value="Notificar Incidencia">
             </div>
             <div id="pc">
-                <input type="text" name="pc" value="[% pc | html %]" size="10" maxlength="200" placeholder="escribe una dirección [opcional] ">
+                <input type="text" name="pc" value="[% pc | html %]" id="pc" size="10" maxlength="200" placeholder="escribe una dirección [opcional] ">
             </div>
 
             [% IF partial_token %]
