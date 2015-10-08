@@ -752,6 +752,9 @@ msgid "Do you have a FixMyBarangay password?"
 msgstr "¿Tiene una contraseña FixMyBarangay?"
 
 #: templates/web/base/auth/general.html:32
+#: templates/web/base/report/update-form.html:87
+#: templates/web/fixmystreet/report/update-form.html:86
+#: templates/web/fixmystreet/report/new/form_user_loggedout.html:11
 msgid "Do you have a %s password?"
 msgstr "¿Tiene una contraseña en %s?"
 
@@ -3733,6 +3736,8 @@ msgstr "Somos conscientes de este problema podría ser responsabilidad de %s; si
 #: templates/web/base/index-steps.html:31
 msgid "We send it to the council on your behalf"
 msgstr "Se lo enviamos al Ayuntamiento en su nombre"
+
+#: templates/web/base/index-steps.html:28
 msgid "Confirm the report and %s will investigate"
 msgstr "Confirma la notificación y el %s lo investigará"
 
