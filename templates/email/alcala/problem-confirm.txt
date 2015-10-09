@@ -4,7 +4,7 @@ Hola [% report.name %],
 
 Por favor haz clic en el siguiente enlace para confirmar que quieres enviar una
 notificación al [% report.body %]. Ten en cuenta que tu notificación se publicará
-también en la web de [% INCLUDE 'site-name.txt' | trim %] website:
+también en la web de [% INCLUDE 'site-name.txt' | trim %]:
 
 [% token_url %]
 
@@ -13,11 +13,11 @@ de tu navegador para visitarlo.
 
 Tu incidencia tiene por título:
 
-[% report.title %]
+<b>[% report.title %]</b>
 
 y su descripción detallada es:
 
-[% report.detail %]
+<b>[% report.detail %]</b>
 
 
 Si no quieres enviar la notificación, simplemente ignora este correo.
