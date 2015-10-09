@@ -253,7 +253,7 @@ msgid ""
 "Add a <strong>body</strong> for each administrative body, such as a council or department\n"
 "          to which problem reports can be sent. You can add one or more contacts (for different\n"
 "          categories of problem) to each body."
-msgstr "Agregue un <strong>órgano</strong> para cada órgano administrativo, por ejemplo una municipalidad o departamento\nal que se puede enviar las notificaciones. Puedes asignar uno o más contactos a cada\nórgano para las diferentes categorías de problemas."
+msgstr "Cree un <strong>órgano administrativo</strong> para cada municipalidad o entidad\nal que se puede enviar las notificaciones. Puedes asignar uno o más contactos a cada\nórgano administrativo, para las diferentes categorías de problemas."
 
 #: templates/web/base/admin/body.html:56
 msgid "Add a contact using the form below."
@@ -492,7 +492,7 @@ msgid ""
 "                This is suitable for issues that you want to allow users to report to the body, but for which there is no public\n"
 "                interest in displaying the report. In the UK, we've used this for services like requesting an extra rubbish bin\n"
 "                at a specific address."
-msgstr "Marcar <strong>privado</strong> si los reportes en esta categoría <strong>no deben ser desplegados en el sitio</strong>.\n\nNormalmente, las categorías no son privadas.\n\nEsto resulta útil para los problemas que se pueden ser reportados por un usuario a un órgano, pero para los cuales\nno hay mayor interés en ser desplegados. En el Reino Unido, hemos utilizado esto para servicios como requerir un\nbasurero extra en una dirección específica"
+msgstr "Marcar <strong>privado</strong> si los reportes en esta categoría <strong>no deben ser mostrados en la web</strong>.\n\nNormalmente, las categorías no son privadas.\n\nEsto resulta útil para los incidencias que los ciudadanos pueden notificar, pero cuya\nexposición en la web no reviste interés. En el Reino Unido, hemos utilizado esto para, por ejemplo, solicitar un\ncontenedor de basura extra en una dirección específica."
 
 #: templates/web/base/admin/body.html:130
 msgid ""
@@ -1022,10 +1022,17 @@ msgstr "Admin FixMyStreet:"
 
 #: templates/web/base/alert/index.html:11
 msgid ""
-"FixMyStreet has a variety of RSS feeds and email alerts for local problems, including\n"
+"%s has a variety of RSS feeds and email alerts for local problems, including\n"
 "alerts for all problems within a particular ward or council, or all problems\n"
 "within a certain distance of a particular location."
-msgstr "FixMyStreet dispone de varias listados RSS y de alertas por email de los problemas locales, incluyendo\nalertas de todos los problemas dentro de un distrito o ayuntamiento concreto, o de todos los problemas \na una cierta distancia de un punto determinado."
+msgstr "%s dispone de varias listados RSS y de alertas por email de los problemas locales, incluyendo\nalertas de todos los problemas dentro de un distrito o ayuntamiento concreto, o de todos los problemas \na una cierta distancia de un punto determinado."
+
+#: templates/web/base/alert/index.html:7
+msgid ""
+"%s has a variety of RSS feeds and email alerts for local problems, including\n"
+alerts for all problems within a particular ward, or all problems\n"
+within a certain distance of a particular location."
+msgstr "%s dispone de varias listados RSS y de alertas por email de los problemas locales, incluyendo\nalertas de todos los problemas dentro de un distrito concreto, o de todos los problemas \na una cierta distancia de un punto determinado."
 
 #: templates/web/base/alert/_list.html:71
 #: templates/web/fixmystreet/alert/_list.html:73
@@ -1097,7 +1104,7 @@ msgstr "Los usuarios marcados se listan en página de<a href='%s'>marcados</a>"
 msgid ""
 "Flagged users are not restricted in any way. This is just a list of users "
 "that have been marked for attention."
-msgstr "Las capacidades de los  \"usuarios marcados\" no se limitan de ninguna manera. Es solo una lista de usuarios que han sido marcado para observación."
+msgstr "Las capacidades de los  \"usuarios marcados\" no se limitan de ninguna manera. Es solo una lista de usuarios que han sido marcados para su observación."
 
 #: templates/web/base/admin/report_edit.html:94
 #: templates/web/base/admin/user-form.html:52
@@ -3058,6 +3065,14 @@ msgstr "Texto:"
 msgid "Thank you for reporting this issue!"
 msgstr "¡Gracias por notificar esta incidencia!"
 
+#: templates/web/base/tokens/confirm_problem.html:8
+msgid "Your issue is on its way to the council."
+msgstr "La notificación de su incidencia va ya camino del ayuntamiento."
+
+#: templates/web/base/tokens/confirm_problem.html:9
+msgid "Your reference for this report is %s, please quote it in any enquiries."
+msgstr "El código de esta incidencia es %s. Por favor mencione este código en cualquier consulta que realice."
+
 #: templates/web/base/tokens/error.html:7
 msgid ""
 "Thank you for trying to confirm your update or problem. We seem to have an "
@@ -3489,9 +3504,12 @@ msgstr "Para <strong>notificar un problema</strong>, haz clic en el mapa en la u
 
 #: templates/web/base/alert/index.html:27
 msgid ""
-"To find out what local alerts we have for you, please enter your postcode or"
-" street name and area"
-msgstr "Para saber cuáles son las alertas locales que tenemos para usted, por favor introduzca su código postal o el nombre de la calle y el área"
+"To find out what local alerts we have for you, please enter your postcode or street name and area"
+msgstr "Para saber cuáles son las alertas locales disponibles para usted, por favor introduzca su código postal o el nombre de la calle y el área"
+
+#: templates/web/base/alert/index.html:25
+msgid "To find out what local alerts we have for you, please enter your %s postcode or street name and area:"
+msgstr "Para saber cuáles son las alertas locales disponibles para usted, por favor introduzca el nombre de una calle de %s de su interés:"
 
 #: perllib/FixMyStreet/DB/ResultSet/Problem.pm:299
 msgid "To view a map of the precise location of this issue"
@@ -3642,7 +3660,7 @@ msgstr "Actualizaciones para este problema, FixMyStreet"
 msgid ""
 "Use the <strong>note</strong> to record details that are only displayed in "
 "the admin. Notes are not shown publicly, and are not sent to the body."
-msgstr "Usa la <strong>nota</strong> para guardar detalles que sólo serán desplegados en la sección de administración. Las notas no son mostradas públicamente ni son enviadas al órgano administrativo."
+msgstr "Usa la <strong>nota</strong> para guardar detalles que sólo serán mostrados en la sección de administración. Las notas no son mostradas públicamente ni son enviadas al órgano administrativo."
 
 #: templates/web/zurich/admin/list_updates.html:30
 #: templates/web/zurich/admin/list_updates.html:9
