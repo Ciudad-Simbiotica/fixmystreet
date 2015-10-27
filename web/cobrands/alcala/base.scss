@@ -135,13 +135,19 @@ div.moderate-display{
 /* Front page */
 #front-main {
   #postcodeForm {
-    div#pc {
+    div {
+
+      background:#fff;
+      border:1px solid $primary_b;
+      text-align: center;
+    }
+    div#pcdiv {
       input {
         display:table-cell;
         float: left;
         margin:0;
         padding:0.25em 2%;
-        width:86%;
+        width:100%;
         border:none;
         background:none;
         line-height:1.5em;
@@ -164,8 +170,28 @@ div.moderate-display{
           background:#333;
         }
       }
+      a {
+        display:table-cell;
+        text-decoration: none;
+        box-sizing: border-box;
+        border:none;
+        margin:0;
+        width:14%;
+        height:35px;
+        background:#000;
+        color:#fff;
+        text-transform:uppercase;
+        @include border-radius(0);
+        &:hover {
+          background:#333;
+        }
+      }
     }
   }
+}
+
+a#geolocate_link {
+    display: none !important;
 }
 
 // Footer

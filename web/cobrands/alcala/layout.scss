@@ -72,7 +72,7 @@ body.twothirdswidthpage,
 body.fullwidthpage {
     #front-main {
         #postcodeForm {
-            div#pc {
+            div#pcdiv {
                 width: 16em;
                 input {
                     color: #777;
@@ -90,9 +90,15 @@ body.fullwidthpage {
                     font-size:1.2em;
                     width: 100%;
                 }
+                a { 
+                    height: 2.2em;
+                    font-size:1.2em;    
+                    vertical-align: middle;
+                }
             }
         }
         a#geolocate_link {
+            display: none;
             font-family: MuseoSans,Helmet,Freesans,sans-serif;
             background: url(images/locate-me.png) no-repeat;
             height: 34px;

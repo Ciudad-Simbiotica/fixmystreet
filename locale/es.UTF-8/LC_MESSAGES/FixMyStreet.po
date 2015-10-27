@@ -957,7 +957,7 @@ msgstr "Introduzca una contraseña"
 
 #: templates/web/base/index-steps.html:26
 msgid "Enter details of the problem"
-msgstr "Introduzca detalles del problema"
+msgstr "Describa la incidencia y, opcionalmente, anexe una foto"
 
 #: templates/web/base/auth/token.html:5
 #: templates/web/base/errors/generic.html:1
@@ -1030,8 +1030,8 @@ msgstr "%s dispone de varias listados RSS y de alertas por email de los problema
 #: templates/web/base/alert/index.html:7
 msgid ""
 "%s has a variety of RSS feeds and email alerts for local problems, including\n"
-alerts for all problems within a particular ward, or all problems\n"
-within a certain distance of a particular location."
+"alerts for all problems within a particular ward, or all problems\n"
+"within a certain distance of a particular location."
 msgstr "%s dispone de varias listados RSS y de alertas por email de los problemas locales, incluyendo\nalertas de todos los problemas dentro de un distrito concreto, o de todos los problemas \na una cierta distancia de un punto determinado."
 
 #: templates/web/base/alert/_list.html:71
@@ -1534,7 +1534,7 @@ msgstr "Alertas locales"
 
 #: templates/web/base/index-steps.html:25
 msgid "Locate the problem on a map of the area"
-msgstr "Señale en el mapa de la zona la localización del problema"
+msgstr "Señale en el mapa la localización de la incidencia"
 
 #: templates/web/base/js/translation_strings.html:43
 msgid "MAP"
@@ -2218,7 +2218,7 @@ msgstr "Por favor, introduzca su título"
 msgid ""
 "Please feel free to <a href=\"%s\">sign in again</a>, or go back to the <a "
 "href=\"/\">front page</a>."
-msgstr "Por favor, siéntase libre para <a href=\"%s\">acceder nuevamente</a> o volver a la <a href=\"/\">página inicial</a>."
+msgstr "Por favor, puede <a href=\"%s\">iniciar sesión nuevamente</a> o ir a la <a href=\"/\">página principal</a>."
 
 #: templates/web/base/report/new/fill_in_details_text.html:1
 #: templates/web/base/report/new/fill_in_details_text.html:8
@@ -3082,7 +3082,7 @@ msgstr "Gracias por tratar de confirmar la actualización o problema. Parece que
 
 #: templates/web/base/tokens/confirm_update.html:15
 msgid "Thank you for updating this issue!"
-msgstr "Gracias por actualizar esta incidencia!"
+msgstr "¡Gracias por actualizar esta incidencia!"
 
 #: templates/web/base/contact/submit.html:6
 #: templates/web/base/questionnaire/completed.html:5
@@ -3757,7 +3757,7 @@ msgstr "Se lo enviamos al Ayuntamiento en su nombre"
 
 #: templates/web/base/index-steps.html:28
 msgid "Confirm the report and %s will investigate"
-msgstr "Confirma la notificación y el %s lo investigará"
+msgstr "Confirme su notificación y el %s lo investigará"
 
 #: templates/web/base/report/new/notes.html:4
 #: templates/web/zurich/report/new/notes.html:4

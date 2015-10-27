@@ -9,6 +9,10 @@ sub is_council {
     1;
 }
 
+sub is_es_council {
+    1;
+}
+
 sub language_override { 'es' }
 
 #mapit id for Alcalá
@@ -16,6 +20,8 @@ sub council_id { return 579300; }
  
 sub council_area { return 'Alcalá de Henares'; }
 sub council_name { return 'Ayto. de Alcalá de Henares'; }
+sub council_lat { return '40.4820'; }
+sub council_lon { return '-3.3635'; }
 #sub council_url { return 'bromley'; }
 
 1;

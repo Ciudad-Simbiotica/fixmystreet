@@ -92,6 +92,13 @@ sub determine_location_from_pc : Private {
         return $c->forward( 'check_location' );
     }
 
+    if ($c->cobrand->is_es_council) {
+        #   For ES councils, we use the lat, long received as a params (geolocated or center of the city)
+        $c->stash->{latitude}  = $c->cobrand->council_lat;
+        $c->stash->{longitude} = $c->cobrand->council_lon;
+    return $c->forward( 'check_location' );
+    }
+        
     # $error doubles up to return multiple choices by being an array
     if ( ref($error) eq 'ARRAY' ) {
         foreach (@$error) {
