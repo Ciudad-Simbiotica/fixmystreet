@@ -1,6 +1,47 @@
 [% map_js = PROCESS 'front/javascript.html' %]
 
 [% pre_container_extra = PROCESS 'around/postcode_form.html' %]
+
+<script>
+function locate(){
+    
+    //FUNCTIONS TAKEN FROM CUIDAMIBARRIO. Changed to coordinates of Alcalá
+    //Redirigimos en timeout
+    var form_pc = encodeURIComponent($('#pc').val()).replace(/%20/g, '+');
+    if (form_pc ) {
+       form_pc = encodeURIComponent(form_pc).replace(/%20/g, '+');
+       location.href = '/around?pc='+form_pc;
+    } else {        
+        setTimeout(function(){location.href = '/around?latitude=40.4820;longitude=-3.3635&zoom=3'}, 5000);
+        // Address is sent. If the address is found, it will have priority over geolocation or default coordinates
+        //Comenzamos geoposition
+        if (geo_position_js.init()) {
+            // var pc=$; 
+            geo_position_js.getCurrentPosition(function(pos) {
+                var latitude = pos.coords.latitude;
+                var longitude = pos.coords.longitude;
+
+                if (latitude>40.4459 && latitude<40.5455 && longitude>-3.4472 && longitude<-3.28385) {
+                    // Coordinates within the bounds defined for the city.
+                    location.href = '/around?latitude=' + latitude + '&longitude=' + longitude + '&zoom=4';
+                }
+                else {
+                     // If not (eg: in foreign country), go to the center of the city.
+                     location.href = '/around?latitude=40.4820&longitude=-3.3635&zoom=3';
+                }
+            }, 
+            function(err) {
+                location.href = '/around?latitude=40.4820&longitude=-3.3635&zoom=3';
+            }, 
+            {
+                enableHighAccuracy: true,
+                timeout: 10000
+            });
+        }
+    }
+}
+</script>
+
 [% INCLUDE 'header.html', title = '', bodyclass = 'frontpage fullwidthpage' %]
 
 [% IF error %]
