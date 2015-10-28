@@ -33,6 +33,7 @@ sub index : Path : Args(0) {
 
     # Zurich goes straight to map page, with all reports
     if ( $c->cobrand->moniker eq 'zurich' ) {
+        $c->forward( 'stash_report_filter_status' );
         $c->forward( 'load_and_group_problems' );
         my $pins = $c->stash->{pins};
         $c->stash->{page} = 'reports';
@@ -491,6 +492,9 @@ sub stash_report_filter_status : Private {
     } elsif ( $status eq 'open' ) {
         $c->stash->{filter_status} = 'open';
         $c->stash->{filter_problem_states} = FixMyStreet::DB::Result::Problem->open_states();
+    } elsif ( $status eq 'closed' ) {
+        $c->stash->{filter_status} = 'closed';
+        $c->stash->{filter_problem_states} = FixMyStreet::DB::Result::Problem->closed_states();
     } elsif ( $status eq 'fixed' ) {
         $c->stash->{filter_status} = 'fixed';
         $c->stash->{filter_problem_states} = FixMyStreet::DB::Result::Problem->fixed_states();
