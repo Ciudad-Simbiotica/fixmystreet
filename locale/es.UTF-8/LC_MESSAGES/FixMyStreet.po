@@ -4131,7 +4131,6 @@ msgid "Your&nbsp;email:"
 msgstr "Su email:"
 
 #: templates/web/base/reports/_list-filters.html:3
-#, fuzzy
 msgid "all reports"
 msgstr "Todas las notificaciones"
 
@@ -4140,7 +4139,6 @@ msgid "by %s"
 msgstr "por %s"
 
 #: templates/web/base/reports/_list-filters.html:5
-#, fuzzy
 msgid "closed reports"
 msgstr "Notificaciones cerradas"
 
@@ -4164,7 +4162,6 @@ msgid "edit user"
 msgstr "editar usuario"
 
 #: templates/web/base/reports/_list-filters.html:6
-#, fuzzy
 msgid "fixed reports"
 msgstr "Notificaciones arregladas"
 
@@ -4287,7 +4284,6 @@ msgid "today"
 msgstr "hoy"
 
 #: templates/web/base/reports/_list-filters.html:4
-#, fuzzy
 msgid "unfixed reports"
 msgstr "Notificaciones no arregladas"
 
