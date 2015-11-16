@@ -847,13 +847,11 @@ msgstr "No utilizó mapa"
 msgid "Diligency prize league table"
 msgstr "Ranking de premios a la constancia"
 
-#. ("%s is the site name")
 #: templates/web/base/auth/general.html:31
 #: templates/web/base/report/new/fill_in_details_form.html:114
 #: templates/web/base/report/update-form.html:87
 #: templates/web/fixmystreet/report/new/form_user_loggedout.html:11
 #: templates/web/fixmystreet/report/update-form.html:86
-#, fuzzy
 msgid "Do you have a %s password?"
 msgstr "¿Tiene una contraseña en %s?"
 
@@ -879,11 +877,10 @@ msgid ""
 "Each contact for the body has a category, which is displayed to the public. \n"
 "            Different categories <strong>can have the same contact</strong> (email address).\n"
 "            This means you can add many categories even if you only have one contact for the body.\n"
-"    "
 msgstr ""
 "Cada categoría de problema tiene asignado un contacto (email) en el órgano administrativo.\n"
 "Diferentes categorías <strong>pueden tener el mismo contacto</strong>.\n"
-"Esto significa que puede agregar muchas categorías incluso si tiene un solo contacto para el órgano."
+"Esto significa que puede agregar muchas categorías incluso si tiene un solo contacto para el órgano.\n"
 
 #: templates/web/base/admin/list_updates.html:42
 #: templates/web/base/admin/problem_row.html:41
@@ -1960,12 +1957,12 @@ msgstr ""
 #: templates/web/base/report/new/fill_in_details_form.html:113
 #: templates/web/fixmystreet/report/new/form_user_loggedout.html:10
 msgid "Now to submit your report&hellip;"
-msgstr "Ahora a enviar tu notificación..."
+msgstr "Para enviar su notificación..."
 
 #: templates/web/base/report/update-form.html:86
 #: templates/web/fixmystreet/report/update-form.html:85
 msgid "Now to submit your update&hellip;"
-msgstr "Ahora a enviar tu notificación..."
+msgstr "Para enviar su notificación..."
 
 #: templates/web/base/js/translation_strings.html:42
 msgid "OK"
