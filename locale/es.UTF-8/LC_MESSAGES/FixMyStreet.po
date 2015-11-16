@@ -247,7 +247,7 @@ msgstr "<small>Si no puede ver el mapa, <a href='%s' rel='nofollow'> omita este 
 #. ('The first %s is a dropdown of all/fixed/etc, the second is a dropdown of categories')
 #: templates/web/base/reports/_list-filters.html:27
 msgid "<label>Show %s</label> <label>about %s</label>"
-msgstr "<label>Muestra %s</label> <label>sobre %s</label>"
+msgstr "<label>Muestra notificaciones %s</label> <label>sobre %s</label>"
 
 #: templates/web/base/admin/index.html:32
 #: templates/web/base/status/index.html:11
@@ -4132,7 +4132,7 @@ msgstr "Su email:"
 
 #: templates/web/base/reports/_list-filters.html:3
 msgid "all reports"
-msgstr "Todas las notificaciones"
+msgstr "Todas"
 
 #: templates/web/base/admin/timeline.html:4
 msgid "by %s"
@@ -4140,7 +4140,7 @@ msgstr "por %s"
 
 #: templates/web/base/reports/_list-filters.html:5
 msgid "closed reports"
-msgstr "Notificaciones cerradas"
+msgstr "Cerradas"
 
 #: templates/web/base/reports/body.html:6
 #: templates/web/base/reports/body.html:7
@@ -4163,7 +4163,7 @@ msgstr "editar usuario"
 
 #: templates/web/base/reports/_list-filters.html:6
 msgid "fixed reports"
-msgstr "Notificaciones arregladas"
+msgstr "Arregladas"
 
 #: templates/web/base/admin/index.html:33
 #: templates/web/zurich/admin/index.html:5
@@ -4285,7 +4285,7 @@ msgstr "hoy"
 
 #: templates/web/base/reports/_list-filters.html:4
 msgid "unfixed reports"
-msgstr "Notificaciones no arregladas"
+msgstr "No arregladas"
 
 #: templates/web/base/admin/report_edit.html:32
 msgid "used map"
