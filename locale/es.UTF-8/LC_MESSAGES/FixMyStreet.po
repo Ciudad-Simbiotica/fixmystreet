@@ -80,13 +80,12 @@ msgstr "admin de %s:"
 
 #. ("%s is the site name")
 #: templates/web/base/alert/index.html:7
-#, fuzzy
 msgid ""
 "%s has a variety of RSS feeds and email alerts for local\n"
 "problems, including alerts for all problems within a particular ward, or all\n"
 "problems within a certain distance of a particular location."
 msgstr ""
-"FixMyStreet dispone de varias listados RSS y de alertas por email de los problemas locales, incluyendo\n"
+"%s dispone de varias listados RSS y de alertas por email de los problemas locales, incluyendo\n"
 "alertas de todos los problemas dentro de un distrito o ayuntamiento concreto, o de todos los problemas \n"
 "a una cierta distancia de un punto determinado."
 
@@ -96,7 +95,6 @@ msgstr "%s ref:&nbsp;%s"
 
 #. ("%s is the site name")
 #: templates/web/base/alert/_list.html:73
-#, fuzzy
 msgid ""
 "%s sends different categories of problem\n"
 "to the appropriate council, so problems within the boundary of a particular council\n"
@@ -1755,7 +1753,6 @@ msgstr "Camino más cercano al pin colocado en el mapa (generada automáticament
 
 #: templates/web/base/auth/token.html:17 
 #: templates/web/base/email_sent.html:5
-#, fuzzy
 msgid "Nearly done! Now check your email..."
 msgstr "¡Ya casi ha terminado! Busque ahora en su email el mensaje de confirmación..."
 
@@ -2117,12 +2114,10 @@ msgid "Photo"
 msgstr "Foto"
 
 #: perllib/FixMyStreet/App/Controller/Photo.pm:221
-#, fuzzy
 msgid "Photo is required."
 msgstr "La foto es necesaria"
 
 #: templates/web/base/admin/category_edit.html:48
-#, fuzzy
 msgid "Photo required"
 msgstr "La foto es necesaria"
 
@@ -2190,17 +2185,14 @@ msgstr "Por favor, corrija los errores a continuación"
 
 #: templates/web/base/contact/blurb.html:2
 #: templates/web/fixmystreet/contact/blurb.html:12
-#, fuzzy
 msgid ""
 "Please do <strong>not</strong> report problems through this form; messages go to\n"
 "the team behind this site, not a council. To report a problem,\n"
 "please <a href=\"/\">go to the front page</a> and follow the instructions."
 msgstr ""
 "Por favor <strong>no</strong> notifique problemas con este formulario. \n"
-"Los mensajes van\n"
-"al equipo técnico que opera esta web, no a un ayuntamiento.\n"
-"Para notificar un problema,\n"
-"por favor <a href=\"/\">vaya a la página principal</a> y siga las instrucciones."
+"Los mensajes van al equipo técnico que opera esta web, no a un ayuntamiento.\n"
+"Para notificar un problema, por favor <a href=\"/\">vaya a la página principal</a> y siga las instrucciones."
 
 #: templates/web/base/report/new/notes.html:6
 msgid "Please do not be abusive&nbsp;&mdash; abusing your council devalues the service for all users."
@@ -2498,7 +2490,6 @@ msgstr "Problemas en el barrio %s"
 #. ("First %s is the body name, second %s the site name")
 #: templates/web/base/reports/body.html:0
 #: templates/web/base/reports/body.html:24
-#, fuzzy
 msgid "Problems within %s, %s"
 msgstr "Problemas en %s"
 
@@ -2631,7 +2622,6 @@ msgstr "Reciba un correo cuando se dejen actualizaciones sobre este problema."
 #. ("%s is the site name")
 #: templates/web/base/around/display_location.html:0
 #: templates/web/base/around/display_location.html:33
-#, fuzzy
 msgid "Recent local problems, %s"
 msgstr "Problemas locales recientes, %s"
 
@@ -2874,9 +2864,8 @@ msgid "Select an area"
 msgstr "Seleccione un área"
 
 #: templates/web/base/alert/_list.html:10
-#, fuzzy
 msgid "Select which type of alert you’d like and click the button for an RSS feed, or enter your email address to subscribe to an email alert."
-msgstr "Seleccione el tipo de alerta que desea y haga clic en el botón correspondiente a un feed RSS o introduzca su dirección de e-mail para suscribirse a alerta por correo electrónico."
+msgstr "Seleccione el tipo de alerta que desea y haga clic en el botón correspondiente a un feed RSS, o introduzca su dirección de e-mail para suscribirse a alerta por correo electrónico."
 
 #: perllib/FixMyStreet/Cobrand/Zurich.pm:835
 #, fuzzy
@@ -2983,7 +2972,6 @@ msgid "Sorry, we could not parse that location. Please try again."
 msgstr "Lo sentimos, pero no pudo analizar esa ubicación. Por favor, inténtelo de nuevo."
 
 #: perllib/FixMyStreet/App/Model/PhotoSet.pm:134
-#, fuzzy
 msgid "Sorry, we couldn't save your image(s), please try again."
 msgstr "Lo sentimos, no pudimos guardar su imagen. Por favor, inténtelo de nuevo."
 
@@ -3007,7 +2995,7 @@ msgstr "Estado"
 #: templates/web/zurich/admin/report_edit.html:155
 #: templates/web/zurich/admin/update_edit.html:17
 msgid "State:"
-msgstr "Estado/Prov.:"
+msgstr "Estado:"
 
 #: perllib/FixMyStreet/App/Controller/Admin.pm:1282
 #: perllib/FixMyStreet/Cobrand/Zurich.pm:387
@@ -3571,7 +3559,6 @@ msgid "Title:"
 msgstr "Título:"
 
 #: templates/web/base/alert/index.html:25
-#, fuzzy
 msgid "To find out what local alerts we have for you, please enter your %s postcode or street name and area:"
 msgstr "Para saber cuáles son las alertas locales disponibles para usted, por favor introduzca el nombre de una calle de %s de su interés:"
 
@@ -3723,7 +3710,6 @@ msgstr "Actualizaciones en {{title}}"
 #: templates/web/base/report/display.html:5
 #: templates/web/fixmystreet/report/display.html:0
 #: templates/web/fixmystreet/report/display.html:9
-#, fuzzy
 msgid "Updates to this problem, %s"
 msgstr "Actualizaciones para este problema, %s"
 
@@ -3734,7 +3720,6 @@ msgstr "Usa la <strong>nota</strong> para guardar detalles que sólo se mostrar�
 
 #: templates/web/zurich/admin/report_edit-sdm.html:48
 #: templates/web/zurich/admin/report_edit.html:67
-#, fuzzy
 msgid "Used map"
 msgstr "Mapa utilizado"
 
