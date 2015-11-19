@@ -13,7 +13,7 @@ por favor visita el siguiente enlace:
 
 <?=$values['has_photo']?>----------
 
-Nnombre: <?=$values['name']?>
+Nombre: <?=$values['name']?>
 
 Email: <?=$values['email']?>
 
@@ -28,7 +28,9 @@ Longitud: <?=$values['longitude']?>
 <?=$values['closest_address']?>----------
 
 Si respondes a este correo, tu respuesta llegará directamente al usuario que 
-notificó el problema.
+notificó el problema. 
+Es recomendable que uses el enlace a la notificación para actualizarla 
+en <?=$values['site_name']?> y que así sea visible para toda la ciudadanía.
 
 Atentamente,
 <?=$values['signature']?>

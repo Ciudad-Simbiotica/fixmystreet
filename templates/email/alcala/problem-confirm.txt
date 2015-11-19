@@ -13,11 +13,11 @@ de tu navegador para visitarlo.
 
 Tu incidencia tiene por título:
 
-<b>[% report.title %]</b>
+   [% report.title %]
 
 y su descripción detallada es:
 
-<b>[% report.detail %]</b>
+   [% report.detail %]
 
 
 Si no quieres enviar la notificación, simplemente ignora este correo.
