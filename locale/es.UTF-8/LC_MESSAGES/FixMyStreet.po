@@ -1753,8 +1753,8 @@ msgstr "Camino más cercano al pin colocado en el mapa (generada automáticament
 
 #: templates/web/base/auth/token.html:17 
 #: templates/web/base/email_sent.html:5
-msgid "Nearly done! Now check your email..."
-msgstr "¡Ya casi ha terminado! Busque ahora en su email el mensaje de confirmación..."
+msgid "Nearly Done! Now check your email..."
+msgstr "¡Ya casi ha terminado! Busque en su email un mensaje de confirmación..."
 
 #: templates/web/base/reports/index.html:21
 msgid "New <br>problems"
