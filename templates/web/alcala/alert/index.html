@@ -36,18 +36,6 @@ within a certain distance of a particular location.', "%s is the site name"), si
   </fieldset>
 </form>
 
-[% IF photos.size %]
-<div id="alert_recent">
-  <aside>
-    <h2>[% loc('Some photos of recent reports') %]</h2>
-    [% FOREACH p IN photos;
-        photo = p.get_photo_params;
-    %]
-        <a href="/report/[% p.id %]"><img border="0" height="100"
-            src="[% photo.url_tn %]" alt="[% p.title | html %]" title="[% p.title | html %]"></a>
-    [% END %]
-  </aside>
-</div>
-[% END %]
+<!-- Eliminadas fotos recientes pues se mostraban más. mySociety ya a arreglado. Cuando hagamos merge... descartar este template -->
 
 [% INCLUDE 'footer.html' %]
