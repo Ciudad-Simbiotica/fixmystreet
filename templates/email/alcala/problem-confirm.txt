@@ -3,8 +3,8 @@ Subject: Confirma tu notificación en [% INCLUDE 'site-name.txt' | trim %]
 Hola [% report.name %],
 
 Por favor haz clic en el siguiente enlace para confirmar que quieres enviar una
-notificación al [% report.body %]. Ten en cuenta que tu notificación se publicará
-también en la web de [% INCLUDE 'site-name.txt' | trim %]:
+notificación al [% report.body %]. Tu notificación se publicará también en la 
+web de [% INCLUDE 'site-name.txt' | trim %].
 
 [% token_url %]
 
@@ -13,16 +13,16 @@ de tu navegador para visitarlo.
 
 Tu incidencia tiene por título:
 
-   [% report.title %]
+   "[% report.title %]"
 
 y su descripción detallada es:
 
-   [% report.detail %]
+   "[% report.detail %]"
 
 
 Si no quieres enviar la notificación, simplemente ignora este correo.
 
-Muchas gracias por enviar tu notificación con [% INCLUDE 'site-name.txt' | trim %].
+Muchas gracias por ayudar a mejorar la ciudad con [% INCLUDE 'site-name.txt' | trim %].
 
 Atentamente,
 [% INCLUDE 'signature.txt' %]

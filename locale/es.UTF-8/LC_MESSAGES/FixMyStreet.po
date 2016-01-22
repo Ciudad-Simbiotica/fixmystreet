@@ -2111,7 +2111,7 @@ msgstr "Teléfono:"
 #: templates/web/zurich/admin/stats.html:37
 #: templates/web/zurich/report/new/fill_in_details_form.html:52
 msgid "Photo"
-msgstr "Foto"
+msgstr "UNA Foto"
 
 #: perllib/FixMyStreet/App/Controller/Photo.pm:221
 msgid "Photo is required."
@@ -3834,7 +3834,7 @@ msgstr "¿Cómo fue su experiencia de resolución de la incidencia?"
 
 #: templates/web/fixmystreet/report/new/fill_in_details_form.html:49
 msgid "What’s the issue, and where is it?"
-msgstr "¿Cuál es el problema y dónde está?"
+msgstr "¿Cuál es el problema y dónde está (indica calle y número)?"
 
 #: templates/web/base/admin/category_edit.html:90
 #: templates/web/zurich/admin/body.html:18
