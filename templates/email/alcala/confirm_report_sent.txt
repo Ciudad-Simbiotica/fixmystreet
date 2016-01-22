@@ -17,7 +17,13 @@ actualizaciones no serán enviadas automáticamente al ayuntamiento.
 Si quieres notificar algo al Ayuntamiento, aguarda a que te respondan para así poder
 responderles directamente. También puedes escribirles indicándoles el URL de la incidencia.
 
-Confiamos en que la incidencia que has notificado sea solucionada pronto.
+Confiamos en que la incidencia que has notificado sea tenida en cuenta y si es
+algo que deba repararse, que sea solucionada pronto.
+
+Consulte nuestra sección de "Preguntas frecuentes", cuyo enlace incluimos 
+a continuación, para saber más sobre qué tipo de incidencias notificar con [% INCLUDE 'site-name.txt' | trim %]
+y cuáles no, y para saber qué hará el ayuntamiento con su notificación.
+
 
 Atentamente,
 <?=$values['signature']?>

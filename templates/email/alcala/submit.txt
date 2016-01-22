@@ -17,9 +17,11 @@ Nombre: <?=$values['name']?>
 
 Email: <?=$values['email']?>
 
-<?=$values['phone_line']?><?=$values['category_line']?>Subject: <?=$values['title']?>
+<?=$values['phone_line']?><?=$values['category_line']?>
 
-Detalles: <?=$values['detail']?>
+Título de la incidencia: "<?=$values['title']?>"
+
+Detalles: "<?=$values['detail']?>"
 
 <?=$values['easting_northing']?>Latitud: <?=$values['latitude']?>
 

@@ -14,6 +14,10 @@ notificación en [% INCLUDE 'site-name.txt' | trim %] dentro del área que elegi
 
 Las alertas por email son un servicio gratuito de [% INCLUDE 'site-name.txt' | trim %].
 
+Consulte nuestra sección de "Preguntas frecuentes", cuyo enlace incluimos 
+a continuación, para saber más sobre qué tipo de incidencias notificar con [% INCLUDE 'site-name.txt' | trim %]
+y cuáles no, y para saber qué hará el ayuntamiento con su notificación.
+
 Atentamente,
 
 [% INCLUDE 'signature.txt' %]

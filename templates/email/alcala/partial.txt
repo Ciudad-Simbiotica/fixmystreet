@@ -8,6 +8,10 @@ siguiente URL:
 
 [% token_url %]
 
+Consulte nuestra sección de "Preguntas frecuentes", cuyo enlace incluimos 
+a continuación, para saber más sobre qué tipo de incidencias notificar con [% INCLUDE 'site-name.txt' | trim %]
+y cuáles no, y para saber qué hará el ayuntamiento con su notificación.
+
 ¡Muchas gracias! 
 Atentamente,
 [% INCLUDE 'signature.txt' %]
